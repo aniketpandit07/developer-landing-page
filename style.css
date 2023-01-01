@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero_section {
+  background-image: url(images/rear-view-programmer-working-all-night-long.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text_container {
+  color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-left: 16px;
+}
+
+.lg_text {
+  font-size: 65px;
+  font-weight: 500;
+}
+
+.black_box {
+  background-color: #000;
+  padding: 20px;
+  
+}
+
+.black_box h3 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+
+}
+.centre{
+  display: block;
+  margin-left: 42%;
+  margin-right: auto;
+ display: 50%;
+}
+.black_box h3 span {
+  font-weight: 400;
+  font-size: 55px;
+}
+
+
+.bottom_section {
+  display: flex;
+}
+.contact {
+  background-color: #9900ff;
+  
+}
+.about {
+  background-color: #9900ff;
+}
+
+.contact,
+.about {
+  min-height: 300px;
+  padding: 32px;
+  color: white;
+}
+.about h2,
+.contact h2 {
+  font-size: 64px;
+  font-weight: 300;
+}
+.about p,
+.contact p {
+  margin-bottom: 20px;
+}
+/*  */
+
